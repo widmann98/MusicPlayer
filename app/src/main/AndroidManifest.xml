@@ -17,7 +17,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".SongActivity"
+            android:name=".ItemSongActivity"
             android:label="@string/title_activity_song"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".PlaylistActivity"></activity>
