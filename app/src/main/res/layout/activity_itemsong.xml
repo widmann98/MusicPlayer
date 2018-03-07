@@ -7,7 +7,7 @@
 
 
     <TextView
-        android:id="@+id/TVtitle"
+        android:id="@+id/tvTitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
@@ -16,7 +16,7 @@
         android:text="TITEL" />
 
     <TextView
-        android:id="@+id/TVinterpreter"
+        android:id="@+id/tvInterpreter"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"

@@ -31,10 +31,10 @@
     </LinearLayout>
 
     <ListView
-        android:id="@+id/list"
+        android:id="@+id/songlistList"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:scrollbars="vertical"></ListView>
+        android:scrollbars="vertical" />
 
 </LinearLayout>

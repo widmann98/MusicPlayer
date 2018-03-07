@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context=".PlaylistActivity"
+    tools:context=".ItemPlaylistActivity"
     android:layout_height="match_parent">
 
     <LinearLayout
@@ -31,10 +31,10 @@
     </LinearLayout>
 
     <ListView
-        android:id="@+id/list"
+        android:id="@+id/playlist_list"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"></ListView>
+        android:layout_marginTop="10dp" />
 
 
 </LinearLayout>

@@ -9,15 +9,20 @@ import android.view.ViewGroup;
 
 public class Song {
 
-    private String TVtitle;
-    private String TVinterpreter;
+    private String title;
+    private String interpreter;
+    private String url;
 
     public String getTitle() {
-        return TVtitle;
+        return title;
     }
 
     public String getInterpreter() {
-        return TVinterpreter;
+        return interpreter;
+    }
+
+    public String getUrl() {
+        return url;
     }
 
 

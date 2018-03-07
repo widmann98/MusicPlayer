@@ -15,14 +15,14 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/songs"
+        android:id="@+id/main_song"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:text="SONGS" />
 
     <Button
-        android:id="@+id/playlist"
+        android:id="@+id/main_playlist"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
