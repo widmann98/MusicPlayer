@@ -20,8 +20,8 @@ public class PlaylistAdapter extends ArrayAdapter<Playlist>{
     private static class ViewHolder{
         public TextView playlist_name;
     }
-    public PlaylistAdapter(@NonNull Context context, int resource, @NonNull List<Playlist> playlists) {
-        super(context, resource, playlists);
+    public PlaylistAdapter(@NonNull Context context, @NonNull List<Playlist> playlists) {
+        super(context, 0, playlists);
     }
 
     @NonNull
