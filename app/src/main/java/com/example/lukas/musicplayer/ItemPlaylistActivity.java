@@ -20,9 +20,5 @@ public class ItemPlaylistActivity extends AppCompatActivity {
         ArrayList<Playlist> playlists = new ArrayList<>();
         playlistAdapter = new PlaylistAdapter(this, playlists);
         listView.setAdapter(playlistAdapter);
-
-
-
-
     }
 }
