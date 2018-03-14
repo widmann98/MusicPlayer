@@ -5,4 +5,6 @@ package com.example.lukas.musicplayer;
  */
 
 public class Playlist {
+    private String playlist_name;
+
 }
