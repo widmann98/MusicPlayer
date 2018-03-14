@@ -18,9 +18,9 @@
         </activity>
         <activity
             android:name=".ItemSongActivity"
-            android:label="@string/title_activity_song"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".ItemPlaylistActivity"></activity>
+        <activity android:name=".PlayerActivity" />
     </application>
 
 </manifest>
