@@ -16,11 +16,12 @@ import android.util.AttributeSet;
  */
 
 public class PlayerActivity extends AppCompatActivity{
-
+    static boolean st_ps = true;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_player);
+
 
         final MediaPlayer x;
         x = MediaPlayer.create(PlayerActivity.this, R.raw.evidence );
@@ -28,7 +29,16 @@ public class PlayerActivity extends AppCompatActivity{
         ImageButton play_pause = (ImageButton) findViewById(R.id.play_pause);
         play_pause.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
-                x.start();
+
+                if (st_ps==true) {
+                    x.start();
+                    st_ps = false;
+                }
+                else {
+                    x.pause();
+                    st_ps = true;
+                }
+
             }
         });
         ImageButton next = (ImageButton) findViewById(R.id.next);
