@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         Button main_song = (Button) findViewById(R.id.main_song);
         main_song.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, ItemSongActivity.class);
+                Intent intent = new Intent(MainActivity.this, PlayerActivity.class);
                 MainActivity.this.startActivity(intent);
             }
         });
