@@ -45,6 +45,8 @@ public class ItemSongActivity extends AppCompatActivity {
         songAdapter = new SongAdapter(this, songs);
         listView.setAdapter(songAdapter);
 
+
+
     }
 
 }

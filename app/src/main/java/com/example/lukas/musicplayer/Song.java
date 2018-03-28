@@ -11,7 +11,10 @@ public class Song {
 
     private String title;
     private String interpreter;
+    private String duration;
     private String url;
+
+    public String getDuration() { return duration; }
 
     public String getTitle() {
         return title;
