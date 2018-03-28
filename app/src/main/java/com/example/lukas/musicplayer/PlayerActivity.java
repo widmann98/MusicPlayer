@@ -1,15 +1,10 @@
 package com.example.lukas.musicplayer;
 
-import android.app.ProgressDialog;
 import android.media.MediaPlayer;
 import android.os.Bundle;
-import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
-import android.content.Intent;
 import android.view.View;
-import android.widget.SeekBar;
 import android.widget.ImageButton;
-import android.util.AttributeSet;
 
 /**
  * Created by Lukas on 14.03.18.
@@ -24,7 +19,7 @@ public class PlayerActivity extends AppCompatActivity{
 
 
         final MediaPlayer x;
-        x = MediaPlayer.create(PlayerActivity.this, R.raw.evidence );
+        x = MediaPlayer.create(PlayerActivity.this, R.raw.evidence);
 
         ImageButton play_pause = (ImageButton) findViewById(R.id.play_pause);
         play_pause.setOnClickListener(new View.OnClickListener() {

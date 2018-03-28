@@ -41,8 +41,10 @@ public class ItemSongActivity extends AppCompatActivity {
 
         listView = (ListView)findViewById(R.id.songlistList);
         ArrayList<Song> songs = new ArrayList<>();
+
         songAdapter = new SongAdapter(this, songs);
         listView.setAdapter(songAdapter);
+
     }
 
 }
